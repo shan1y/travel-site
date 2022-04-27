@@ -1,0 +1,70 @@
+.hero-container {
+  height: 35rem;
+  display: flex;
+  background-color: var(--light-pink);
+  padding: 3rem;
+}
+
+.hero-container__left-side {
+  flex: 0.5;
+  margin: 2rem;
+}
+
+.hero-container__left-side > * {
+  margin: 3rem;
+}
+
+.hero__title {
+  color: var(--navyblue);
+  text-transform: capitalize;
+}
+
+.hero__description {
+  color: var(--navyblue);
+}
+
+.hero__button {
+  background-color: var(--salmon);
+  padding: 0.7rem 3rem;
+  color: white;
+  border-radius: 30px;
+}
+
+.hero-container__right-side {
+  flex: 0.5;
+  display: flex;
+  justify-content: end;
+}
+
+.hero-image {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.destinations__section-container {
+  padding: 3rem;
+}
+
+.destinations__title {
+  padding: 1rem 0 0 5rem;
+  margin-bottom: 1rem;
+}
+
+.destinations__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hawaii__image,
+.iceland__image,
+.greece__image {
+  height: 400px;
+  width: auto;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
