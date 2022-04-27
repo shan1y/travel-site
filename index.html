@@ -10,7 +10,9 @@
   </head>
   <body>
     <nav>
-      <h2 class="nav__logo">Travel Site</h2>
+      <h2 class="nav__logo">
+        <a href="index.html" class="nav__logo-link">Travel Site</a>
+      </h2>
       <ul class="nav__list">
         <li class="nav__item">
           <a href="./index.html" class="nav__link current">Home</a>
@@ -45,25 +47,42 @@
       </div>
     </section>
 
+    <div class="destinations__card">
     <section class="destinations__section-container">
       <h2 class="destinations__title">Recommendations</h2>
       <div class="destinations__wrapper">
-        <img
-          class="hawaii__image"
-          src="./assets/Images/hawaii.jpg"
-          alt="hawaii"
-        />
-        <img
-          class="iceland__image"
-          src="./assets/Images/iceland.jpg"
-          alt="iceland"
-        />
-        <img
-          class="greece__image"
-          src="./assets/Images/greece.jpg"
-          alt="greece"
-        />
+      
+        <div class="destinations__card">
+          <a href="pages/hawaii.html" class="destinations__card-link"><img
+            class="hawaii__image"
+            src="./assets/Images/hawaii.jpg"
+            alt="hawaii"
+          />
+          <p class="destinations__card-title">Hawaii</p></a>
+    
+        </div>
+
+        <div class="destinations__card">
+          <a href="./pages/iceland.html" class="destinations__card-link">
+            <img
+              class="iceland__image"
+              src="./assets/Images/iceland.jpg"
+              alt="iceland"
+          /></a>
+          <p class="destinations__card-title">Iceland</p>
+        </div>
+
+        <div class="destinations__card">
+        <a href="./pages/greece.html" class="destinations__card-link">
+          <img
+            class="greece__image"
+            src="./assets/Images/greece.jpg"
+            alt="greece"
+        /></a>
+        <p class="destinations__card-title">Greece</p>
+        </div>
       </div>
+
     </section>
 
     <footer class="footer__container">

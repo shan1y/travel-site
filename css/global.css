@@ -28,11 +28,20 @@ a {
 }
 
 nav {
+  position: fixed;
+  overflow: hidden;
+  background-color: white;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   height: 5rem;
   align-items: center;
   padding: 1rem 3rem 1rem 8rem;
+}
+
+.nav__logo-link {
+  color: var(--navyblue);
 }
 
 .nav__list {
