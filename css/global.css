@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-nav {
+.nav {
   position: fixed;
   overflow: hidden;
   background-color: white;
@@ -67,7 +67,7 @@ nav {
 h2.footer__card-title {
   margin-bottom: 20px;
 }
-.footer__container {
+.footer {
   display: flex;
   justify-content: center;
   background-color: var(--light-pink);
@@ -86,7 +86,7 @@ h2.footer__card-title {
   margin: 0 5rem 0 5rem;
 }
 
-.footer__hours-wrapper {
+.footer__description-information-wrapper {
   margin: 0;
 }
 
