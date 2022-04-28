@@ -60,7 +60,7 @@ a {
   padding-bottom: 9px;
 }
 
-.nav__link.current {
+.nav__link--active {
   border-bottom: 3px solid var(--salmon);
 }
 
