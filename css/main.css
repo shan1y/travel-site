@@ -1,4 +1,4 @@
-.hero-container {
+.hero {
   height: 35rem;
   display: flex;
   background-color: var(--light-pink);
@@ -6,12 +6,12 @@
   margin-top: 50px;
 }
 
-.hero-container__left-side {
+.hero__left-side {
   flex: 0.5;
   margin: 2rem;
 }
 
-.hero-container__left-side > * {
+.hero__left-side > * {
   margin: 3rem;
 }
 
@@ -31,7 +31,7 @@
   border-radius: 30px;
 }
 
-.hero-container__right-side {
+.hero__right-side {
   flex: 0.5;
   display: flex;
   justify-content: end;
@@ -43,7 +43,7 @@
   object-fit: contain;
 }
 
-.destinations__section-container {
+.destinations {
   padding: 3rem;
 }
 
@@ -52,7 +52,7 @@
   margin-bottom: 1rem;
 }
 
-.destinations__wrapper {
+.destinations__cards-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -9,29 +9,31 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="nav">
-      <h2 class="nav__logo">
-        <a href="../index.html" class="nav__logo-link">Travel Site</a>
-      </h2>
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a href="../index.html" class="nav__link">Home</a>
-        </li>
-        <li class="nav__item">
-          <a href="./hawaii.html" class="nav__link">Hawaii</a>
-        </li>
-        <li class="nav__item">
-          <a href="./iceland.html" class="nav__link">Iceland</a>
-        </li>
-        <li class="nav__item">
-          <a href="./greece.html" class="nav__link current">Greece</a>
-        </li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="nav">
+        <h2 class="nav__logo">
+          <a href="../index.html" class="nav__logo-link">Travel Site</a>
+        </h2>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="../index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="./hawaii.html" class="nav__link">Hawaii</a>
+          </li>
+          <li class="nav__item">
+            <a href="./iceland.html" class="nav__link">Iceland</a>
+          </li>
+          <li class="nav__item">
+            <a href="./greece.html" class="nav__link current">Greece</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="main__container main__container--greece">
       <div class="main__title">Greece</div>
-      <div class="main__card-wrapper">
+      <div class="main__cards-wrapper">
         <div class="main__card">
           <p class="main__day">Friday</p>
           <span>Breakfast</span><span>Lunch</span><span>Dinner</span
@@ -51,44 +53,53 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__content-wrapper">
-        <h2 class="footer__card-title">Contact</h2>
+      <div class="footer__section">
+        <h2 class="footer__title">Contact</h2>
         <p class="footer__card-description">email</p>
         <p class="footer__card-information">info@travelsite.com</p>
       </div>
 
-      <div class="footer__content-wrapper">
-        <h2 class="footer__card-title">Hours</h2>
-        <div class="footer__description-wrapper">
-          <div class="footer__description-information-wrapper">
+      <div class="footer__section">
+        <h2 class="footer__title">Hours</h2>
+        <div class="footer__hours-entire-wrapper">
+          <div class="footer__hours-wrapper">
             <p class="footer__card-description">Monday - Friday</p>
             <p class="footer__card-information">9:00 AM - 5:00 PM</p>
           </div>
-          <div class="footer__description-information-wrapper">
+          <div class="footer__hours-wrapper">
             <p class="footer__card-description">Saturday</p>
             <p class="footer__card-information">10:00 AM - 4:00 PM</p>
           </div>
-          <div class="footer__description-information-wrapper">
+          <div class="footer__hours-wrapper">
             <p class="footer__card-description">Sunday</p>
             <p class="footer__card-information">Closed</p>
           </div>
         </div>
       </div>
 
-      <div class="footer__content-wrapper">
-        <h2 class="footer__card-title">Social</h2>
+      <div class="footer__section">
+        <h2 class="footer__title">Social</h2>
         <div class="footer__icons-wrapper">
           <a href="https://www.instagram.com">
-            <img src="../assets/Icons/icon-instagram.png" alt=""
+            <img
+              class="footer__icon"
+              src="../assets/Icons/icon-instagram.png"
+              alt=""
           /></a>
           <a href="https://www.facebook.com">
-            <img src="../assets/Icons/icon-facebook.png" alt=""
+            <img
+              class="footer__icon"
+              src="../assets/Icons/icon-facebook.png"
+              alt=""
           /></a>
           <a href="https://www.twitter.com">
-            <img src="../assets/Icons/icon-twitter.png" alt="" />
+            <img
+              class="footer__icon"
+              src="../assets/Icons/icon-twitter.png"
+              alt=""
+            />
           </a>
         </div>
-        <div></div>
       </div>
     </footer>
   </body>

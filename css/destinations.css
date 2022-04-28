@@ -23,17 +23,19 @@
 .main__title {
   color: white;
   font-size: 5rem;
+  padding-left: 4rem;
   font-weight: bold;
 }
 
-.main__card-wrapper {
+.main__cards-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .main__card {
   height: 370px;
-  width: 300px;
+  width: 250px;
   margin: 3rem 1rem 0rem 1rem;
   display: flex;
   flex-direction: column;
@@ -41,6 +43,7 @@
   border-radius: 10px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .main__day {
