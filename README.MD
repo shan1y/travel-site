@@ -1,0 +1,1 @@
+Travel Site Sprint 1 Project Submission for Brainstation week 2 of bootcamp. This project has a main page which showcases three destinations (hawaii, iceland and greece) with clickable images to take you to the respective destination where it outlines an itinerary for the weekend. Fixed Nav Bar and global footer used.
